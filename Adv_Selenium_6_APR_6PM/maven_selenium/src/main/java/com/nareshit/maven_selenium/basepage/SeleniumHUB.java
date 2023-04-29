@@ -21,6 +21,9 @@ public class SeleniumHUB {
 		System.out.println(driver.getTitle());
 		driver.manage().window().maximize();
 		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());//3-lines of code added in seleniumHUB class
+		System.out.println(driver.getTitle());
 	}
 
 }
