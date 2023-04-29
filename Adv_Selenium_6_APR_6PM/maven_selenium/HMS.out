@@ -1,0 +1,143 @@
+*****Starting TC001_CustomerRegistration******
+*****End of TC001_CustomerRegistration******
+*****Starting TC001_CustomerRegistration******
+Clicked on  HMS link with object:Proxy element for: DefaultElementLocator 'By.linkText: HMS'
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (aef6b1927b08165b45bfa7f638b9cfcc)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (aef6b1927b08165b45bfa7f638b9cfcc)] -> name: password]
+Clicking on login button with object:Proxy element for: DefaultElementLocator 'By.name: submit'
+Clicked on  Registration link with object:[[ChromeDriver: chrome on WINDOWS (aef6b1927b08165b45bfa7f638b9cfcc)] -> link text: Registration]
+Clicked on  Perminant Registration link with object:[[ChromeDriver: chrome on WINDOWS (aef6b1927b08165b45bfa7f638b9cfcc)] -> link text: Perminent Registration]
+Verifying PR page by using object:[[ChromeDriver: chrome on WINDOWS (aef6b1927b08165b45bfa7f638b9cfcc)] -> xpath: //span[text()='Permanent Registration ']]
+Selecting a value from Patient Category dropdown by using object:[[ChromeDriver: chrome on WINDOWS (aef6b1927b08165b45bfa7f638b9cfcc)] -> name: PATIENT_CAT]
+Selecting a value from relation dropdown by using object:[[ChromeDriver: chrome on WINDOWS (aef6b1927b08165b45bfa7f638b9cfcc)] -> name: RELATION]
+Selecting a value from title Category dropdown by using object:[[ChromeDriver: chrome on WINDOWS (aef6b1927b08165b45bfa7f638b9cfcc)] -> name: TITLE]
+Entering firstname by using object:[[ChromeDriver: chrome on WINDOWS (aef6b1927b08165b45bfa7f638b9cfcc)] -> name: PNT_NAME]
+Entering lastname by using object:[[ChromeDriver: chrome on WINDOWS (aef6b1927b08165b45bfa7f638b9cfcc)] -> name: LAST_NAME]
+*****End of TC001_CustomerRegistration******
+*****Starting TC001_CustomerRegistration******
+Clicked on  HMS link with object:Proxy element for: DefaultElementLocator 'By.linkText: HMS'
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (1cc65cad5a6dd2e95e531739a630a8a3)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (1cc65cad5a6dd2e95e531739a630a8a3)] -> name: password]
+Clicking on login button with object:Proxy element for: DefaultElementLocator 'By.name: submit'
+Clicked on  Registration link with object:[[ChromeDriver: chrome on WINDOWS (1cc65cad5a6dd2e95e531739a630a8a3)] -> link text: Registration]
+Clicked on  Perminant Registration link with object:[[ChromeDriver: chrome on WINDOWS (1cc65cad5a6dd2e95e531739a630a8a3)] -> link text: Perminent Registration]
+Verifying PR page by using object:[[ChromeDriver: chrome on WINDOWS (1cc65cad5a6dd2e95e531739a630a8a3)] -> xpath: //span[text()='Permanent Registration ']]
+Selecting a value from Patient Category dropdown by using object:[[ChromeDriver: chrome on WINDOWS (1cc65cad5a6dd2e95e531739a630a8a3)] -> name: PATIENT_CAT]
+Selecting a value from relation dropdown by using object:[[ChromeDriver: chrome on WINDOWS (1cc65cad5a6dd2e95e531739a630a8a3)] -> name: RELATION]
+Selecting a value from title Category dropdown by using object:[[ChromeDriver: chrome on WINDOWS (1cc65cad5a6dd2e95e531739a630a8a3)] -> name: TITLE]
+Entering firstname by using object:[[ChromeDriver: chrome on WINDOWS (1cc65cad5a6dd2e95e531739a630a8a3)] -> name: PNT_NAME]
+Entering lastname by using object:[[ChromeDriver: chrome on WINDOWS (1cc65cad5a6dd2e95e531739a630a8a3)] -> name: LAST_NAME]
+*****End of TC001_CustomerRegistration******
+*****Starting TC001_CustomerRegistration******
+Clicked on  HMS link with object:Proxy element for: DefaultElementLocator 'By.linkText: HMS'
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (237c916102e9bef3421afe546fdeb4ce)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (237c916102e9bef3421afe546fdeb4ce)] -> name: password]
+Clicking on login button with object:Proxy element for: DefaultElementLocator 'By.name: submit'
+Clicked on  Registration link with object:[[ChromeDriver: chrome on WINDOWS (237c916102e9bef3421afe546fdeb4ce)] -> link text: Registration]
+Clicked on  Perminant Registration link with object:[[ChromeDriver: chrome on WINDOWS (237c916102e9bef3421afe546fdeb4ce)] -> link text: Perminent Registration]
+Verifying PR page by using object:[[ChromeDriver: chrome on WINDOWS (237c916102e9bef3421afe546fdeb4ce)] -> xpath: //span[text()='Permanent Registration ']]
+Selecting a value from Patient Category dropdown by using object:[[ChromeDriver: chrome on WINDOWS (237c916102e9bef3421afe546fdeb4ce)] -> name: PATIENT_CAT]
+Selecting a value from relation dropdown by using object:[[ChromeDriver: chrome on WINDOWS (237c916102e9bef3421afe546fdeb4ce)] -> name: RELATION]
+Selecting a value from title Category dropdown by using object:[[ChromeDriver: chrome on WINDOWS (237c916102e9bef3421afe546fdeb4ce)] -> name: TITLE]
+Entering firstname by using object:[[ChromeDriver: chrome on WINDOWS (237c916102e9bef3421afe546fdeb4ce)] -> name: PNT_NAME]
+Entering lastname by using object:[[ChromeDriver: chrome on WINDOWS (237c916102e9bef3421afe546fdeb4ce)] -> name: LAST_NAME]
+*****End of TC001_CustomerRegistration******
+*****Starting TC001_CustomerRegistration******
+Clicked on  HMS link with object:Proxy element for: DefaultElementLocator 'By.linkText: HMS'
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (d1b15700881b1918477c4003abb48480)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (d1b15700881b1918477c4003abb48480)] -> name: password]
+Clicking on login button with object:Proxy element for: DefaultElementLocator 'By.name: submit'
+Clicked on  Registration link with object:[[ChromeDriver: chrome on WINDOWS (d1b15700881b1918477c4003abb48480)] -> link text: Registration]
+Clicked on  Perminant Registration link with object:[[ChromeDriver: chrome on WINDOWS (d1b15700881b1918477c4003abb48480)] -> link text: Perminent Registration]
+Verifying PR page by using object:[[ChromeDriver: chrome on WINDOWS (d1b15700881b1918477c4003abb48480)] -> xpath: //span[text()='Permanent Registration ']]
+Selecting a value from Patient Category dropdown by using object:[[ChromeDriver: chrome on WINDOWS (d1b15700881b1918477c4003abb48480)] -> name: PATIENT_CAT]
+Selecting a value from relation dropdown by using object:[[ChromeDriver: chrome on WINDOWS (d1b15700881b1918477c4003abb48480)] -> name: RELATION]
+Selecting a value from title Category dropdown by using object:[[ChromeDriver: chrome on WINDOWS (d1b15700881b1918477c4003abb48480)] -> name: TITLE]
+Entering firstname by using object:[[ChromeDriver: chrome on WINDOWS (d1b15700881b1918477c4003abb48480)] -> name: PNT_NAME]
+Entering lastname by using object:[[ChromeDriver: chrome on WINDOWS (d1b15700881b1918477c4003abb48480)] -> name: LAST_NAME]
+*****End of TC001_CustomerRegistration******
+*****Starting TC001_CustomerRegistration******
+Clicked on  HMS link with object:Proxy element for: DefaultElementLocator 'By.linkText: HMS'
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (0efd4d98b79741bb6633a9ae8a6854e8)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (0efd4d98b79741bb6633a9ae8a6854e8)] -> name: password]
+Clicking on login button with object:Proxy element for: DefaultElementLocator 'By.name: submit'
+Clicked on  Registration link with object:[[ChromeDriver: chrome on WINDOWS (0efd4d98b79741bb6633a9ae8a6854e8)] -> link text: Registration]
+Clicked on  Perminant Registration link with object:[[ChromeDriver: chrome on WINDOWS (0efd4d98b79741bb6633a9ae8a6854e8)] -> link text: Perminent Registration]
+Verifying PR page by using object:[[ChromeDriver: chrome on WINDOWS (0efd4d98b79741bb6633a9ae8a6854e8)] -> xpath: //span[text()='Permanent Registration ']]
+Selecting a value from Patient Category dropdown by using object:[[ChromeDriver: chrome on WINDOWS (0efd4d98b79741bb6633a9ae8a6854e8)] -> name: PATIENT_CAT]
+Selecting a value from relation dropdown by using object:[[ChromeDriver: chrome on WINDOWS (0efd4d98b79741bb6633a9ae8a6854e8)] -> name: RELATION]
+Selecting a value from title Category dropdown by using object:[[ChromeDriver: chrome on WINDOWS (0efd4d98b79741bb6633a9ae8a6854e8)] -> name: TITLE]
+Entering firstname by using object:[[ChromeDriver: chrome on WINDOWS (0efd4d98b79741bb6633a9ae8a6854e8)] -> name: PNT_NAME]
+Entering lastname by using object:[[ChromeDriver: chrome on WINDOWS (0efd4d98b79741bb6633a9ae8a6854e8)] -> name: LAST_NAME]
+*****End of TC001_CustomerRegistration******
+*****Starting TC001_CustomerRegistration******
+Clicked on  HMS link with object:Proxy element for: DefaultElementLocator 'By.linkText: HMS'
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (366daf2cb4bc3b55e4d1d501a760f13d)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (366daf2cb4bc3b55e4d1d501a760f13d)] -> name: password]
+Clicking on login button with object:Proxy element for: DefaultElementLocator 'By.name: submit'
+*****Starting TC001_CustomerRegistration******
+Clicked on  HMS link with object:Proxy element for: DefaultElementLocator 'By.linkText: HMS'
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (baf7a07d2fb5cb3ffcec53b09780d70e)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (baf7a07d2fb5cb3ffcec53b09780d70e)] -> name: password]
+Clicking on login button with object:Proxy element for: DefaultElementLocator 'By.name: submit'
+*****Starting TC001_CustomerRegistration******
+Clicked on  HMS link with object:Proxy element for: DefaultElementLocator 'By.linkText: HMS'
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (7da40f28ea3320660f08d57c25d6cf93)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (7da40f28ea3320660f08d57c25d6cf93)] -> name: password]
+Clicking on login button with object:Proxy element for: DefaultElementLocator 'By.name: submit'
+*****Starting TC001_CustomerRegistration******
+*****Starting TC001_CustomerRegistration******
+*****Starting TC001_CustomerRegistration******
+*****Starting TC001_CustomerRegistration******
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (bf9540970a9f5fc8aec1ffe5c56f8620)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (bf9540970a9f5fc8aec1ffe5c56f8620)] -> name: password]
+*****Starting TC001_CustomerRegistration******
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (bf9540970a9f5fc8aec1ffe5c56f8620)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (bf9540970a9f5fc8aec1ffe5c56f8620)] -> name: password]
+*****Starting TC001_CustomerRegistration******
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (bf9540970a9f5fc8aec1ffe5c56f8620)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (bf9540970a9f5fc8aec1ffe5c56f8620)] -> name: password]
+*****Starting TC001_CustomerRegistration******
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (bf9540970a9f5fc8aec1ffe5c56f8620)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (bf9540970a9f5fc8aec1ffe5c56f8620)] -> name: password]
+*****Starting TC001_CustomerRegistration******
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (3d9caf73652fef1f344fad73b49391f3)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (3d9caf73652fef1f344fad73b49391f3)] -> name: password]
+Clicking on login button with object:Proxy element for: DefaultElementLocator 'By.name: submit'
+Clicked on  Registration link with object:[[ChromeDriver: chrome on WINDOWS (3d9caf73652fef1f344fad73b49391f3)] -> link text: Registration]
+Clicked on  Perminant Registration link with object:[[ChromeDriver: chrome on WINDOWS (3d9caf73652fef1f344fad73b49391f3)] -> link text: Perminent Registration]
+Verifying PR page by using object:[[ChromeDriver: chrome on WINDOWS (3d9caf73652fef1f344fad73b49391f3)] -> xpath: //span[text()='Permanent Registration ']]
+Selecting a value from Patient Category dropdown by using object:[[ChromeDriver: chrome on WINDOWS (3d9caf73652fef1f344fad73b49391f3)] -> name: PATIENT_CAT]
+Selecting a value from relation dropdown by using object:[[ChromeDriver: chrome on WINDOWS (3d9caf73652fef1f344fad73b49391f3)] -> name: RELATION]
+Selecting a value from title Category dropdown by using object:[[ChromeDriver: chrome on WINDOWS (3d9caf73652fef1f344fad73b49391f3)] -> name: TITLE]
+Entering firstname by using object:[[ChromeDriver: chrome on WINDOWS (3d9caf73652fef1f344fad73b49391f3)] -> name: PNT_NAME]
+Entering lastname by using object:[[ChromeDriver: chrome on WINDOWS (3d9caf73652fef1f344fad73b49391f3)] -> name: LAST_NAME]
+*****End of TC001_CustomerRegistration******
+*****Starting TC001_CustomerRegistration******
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (da3ae639c3f9f7fb0afed3d0baea0da0)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (da3ae639c3f9f7fb0afed3d0baea0da0)] -> name: password]
+Clicking on login button with object:Proxy element for: DefaultElementLocator 'By.name: submit'
+Clicked on  Registration link with object:[[ChromeDriver: chrome on WINDOWS (da3ae639c3f9f7fb0afed3d0baea0da0)] -> link text: Registration]
+Clicked on  Perminant Registration link with object:[[ChromeDriver: chrome on WINDOWS (da3ae639c3f9f7fb0afed3d0baea0da0)] -> link text: Perminent Registration]
+Verifying PR page by using object:[[ChromeDriver: chrome on WINDOWS (da3ae639c3f9f7fb0afed3d0baea0da0)] -> xpath: //span[text()='Permanent Registration ']]
+Selecting a value from Patient Category dropdown by using object:[[ChromeDriver: chrome on WINDOWS (da3ae639c3f9f7fb0afed3d0baea0da0)] -> name: PATIENT_CAT]
+Selecting a value from relation dropdown by using object:[[ChromeDriver: chrome on WINDOWS (da3ae639c3f9f7fb0afed3d0baea0da0)] -> name: RELATION]
+Selecting a value from title Category dropdown by using object:[[ChromeDriver: chrome on WINDOWS (da3ae639c3f9f7fb0afed3d0baea0da0)] -> name: TITLE]
+Entering firstname by using object:[[ChromeDriver: chrome on WINDOWS (da3ae639c3f9f7fb0afed3d0baea0da0)] -> name: PNT_NAME]
+Entering lastname by using object:[[ChromeDriver: chrome on WINDOWS (da3ae639c3f9f7fb0afed3d0baea0da0)] -> name: LAST_NAME]
+*****End of TC001_CustomerRegistration******
+*****Starting TC001_CustomerRegistration******
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (f12b65a2c4ef80e60d2f0556caea1b12)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (f12b65a2c4ef80e60d2f0556caea1b12)] -> name: password]
+*****Starting TC001_CustomerRegistration******
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (dfe4664897a2ff64747076a69ce3b5d2)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (dfe4664897a2ff64747076a69ce3b5d2)] -> name: password]
+*****Starting TC001_CustomerRegistration******
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (dfe4664897a2ff64747076a69ce3b5d2)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (dfe4664897a2ff64747076a69ce3b5d2)] -> name: password]
+*****Starting TC001_CustomerRegistration******
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (dfe4664897a2ff64747076a69ce3b5d2)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (dfe4664897a2ff64747076a69ce3b5d2)] -> name: password]
+*****Starting TC001_CustomerRegistration******
+Entering username with object:[[ChromeDriver: chrome on WINDOWS (dfe4664897a2ff64747076a69ce3b5d2)] -> name: username]
+Entering password with object:[[ChromeDriver: chrome on WINDOWS (dfe4664897a2ff64747076a69ce3b5d2)] -> name: password]

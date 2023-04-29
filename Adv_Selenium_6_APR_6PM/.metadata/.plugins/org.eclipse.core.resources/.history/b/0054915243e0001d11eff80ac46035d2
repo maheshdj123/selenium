@@ -1,0 +1,40 @@
+package com.nareshit.maven_selenium.pageUI;
+
+import static org.testng.Assert.assertEquals;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import com.nareshit.maven_selenium.basepage.BasePage;
+
+public class Registration extends BasePage{
+	
+	@FindBy(linkText = "HMS") WebElement linkHMS;
+	@FindBy(name = "username") WebElement txtusername;
+	@FindBy(name = "password") WebElement txtpassword;
+	@FindBy(name = "submit") WebElement btnlogin;
+	@FindBy(linkText = "Registration") WebElement linkregistration;
+	@FindBy(linkText = "Perminent Registration") WebElement linkperminentregistration;
+	@FindBy(xpath = "//span[text()='Permanent Registration']") WebElement txtPR;
+	@FindBy(name = "PATIENT_CAT") WebElement ddptcat;
+	
+	
+	public Registration(WebDriver driver) {
+		PageFactory.initElements(driver, this);
+	}
+
+	public void login() throws Exception{
+		linkHMS.click();
+		txtusername.sendKeys(getData("username"));
+		txtpassword.sendKeys(getData("password"));
+		btnlogin.click();
+	}
+
+	public void registration() {
+		linkregistration.click();
+		linkperminentregistration.click();
+		assertEquals(txtPR.getText(), "permanent registration");
+	}
+
+}

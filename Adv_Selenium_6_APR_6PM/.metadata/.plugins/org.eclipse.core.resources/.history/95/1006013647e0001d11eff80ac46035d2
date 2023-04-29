@@ -1,0 +1,12 @@
+#User data
+browser = chrome
+url = http://seleniumbymahesh.com
+
+#Credentials
+username admin
+password admin
+
+#Test Data
+firstname=qa
+lastname=test
+domainname=@gamil.com

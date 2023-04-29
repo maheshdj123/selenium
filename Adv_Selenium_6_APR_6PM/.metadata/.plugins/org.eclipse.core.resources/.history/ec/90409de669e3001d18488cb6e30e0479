@@ -1,0 +1,30 @@
+package com.nareshit.maven_selenium.listeners;
+
+import org.testng.IRetryAnalyzer;
+import org.testng.ITestResult;
+import org.testng.Reporter;
+
+public class Retry implements IRetryAnalyzer {
+
+	private int retrycount = 0;
+	private int maxretrycount = 3;
+
+	public boolean retry(ITestResult arg0) {
+		if (retrycount < maxretrycount) {
+			log("Retrying Test " + arg0.getName() + " with status " + getResultStatusName(arg0.getStatus()) + " for the"
+					+ (retrycount + 1) + "times");
+		}
+
+		return false;
+	}
+
+	private void log(String string) {
+		Reporter.log(string);
+	}
+
+	private String getResultStatusName(int status) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

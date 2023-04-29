@@ -1,0 +1,65 @@
+package com.nareshit.maven_selenium.pageUI;
+
+import static org.testng.Assert.assertEquals;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import com.nareshit.maven_selenium.basepage.BasePage;
+
+public class Registration extends BasePage{
+	
+	@FindBy(linkText = "HMS") WebElement linkHMS;
+	@FindBy(name = "username") WebElement txtusername;
+	@FindBy(name = "password") WebElement txtpassword;
+	@FindBy(name = "submit") WebElement btnlogin;
+	@FindBy(linkText = "Registration") WebElement linkregistration;
+	@FindBy(linkText = "Perminent Registration") WebElement linkperminentregistration;
+	@FindBy(xpath = "//span[text()='Permanent Registration ']") WebElement txtPR;
+	@FindBy(name = "PATIENT_CAT") WebElement ddpatientcat;
+	@FindBy(name = "RELATION") WebElement ddrelation;
+	@FindBy(name = "TITLE") WebElement ddtitle;
+	@FindBy(name = "PNT_NAME") WebElement txtfirstname;
+	@FindBy(name = "LAST_NAME") WebElement txtlastname;
+	@FindBy(name = "PAT_IDENTITY") WebElement ddpatientident;
+	@FindBy(name = "PAT_IDENTITY_PROOF") WebElement txtpatienid;
+	@FindBy(name = "DOB") WebElement datedob;
+	@FindBy(name = "AGE") WebElement txtage;
+	@FindBy(name = "EMAIL_ID") WebElement txtemail;
+	@FindBy(name = "image") WebElement btnupload;
+	
+	
+	
+	public Registration(WebDriver driver) {
+		PageFactory.initElements(driver, this);
+	}
+
+	public void login() throws Exception{
+		linkHMS.click();
+		txtusername.sendKeys(getData("username"));
+		txtpassword.sendKeys(getData("password"));
+		btnlogin.click();
+	}
+
+	public void registration() {
+		linkregistration.click();
+		linkperminentregistration.click();
+	}
+	
+	public void pr() {
+		assertEquals(txtPR.getText(), "Permanent Registration");
+		ddpatientcat.sendKeys("Self");
+		ddrelation.sendKeys("Brother");
+		ddtitle.sendKeys("Mr.");
+		txtfirstname.sendKeys("Mahesh");
+		txtlastname.sendKeys("D");
+		ddpatientident.sendKeys("AAdhar Card");
+		txtpatienid.sendKeys("12345678");
+		datedob.sendKeys("10-10-1990");
+		txtage.sendKeys("12");
+		txtemail.sendKeys("mahesh123@gmail.com");
+		//btnupload.sendKeys("D:\\Images\\sunny2.jpg");
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.nareshit.maven_selenium.listeners;
+
+import org.testng.IRetryAnalyzer;
+import org.testng.ITestResult;
+
+public class Retry implements IRetryAnalyzer {
+
+	public boolean retry(ITestResult result) {
+		
+		return false;
+	}
+
+}

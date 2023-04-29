@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" retried="3" total="5" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Test start running:hmsPatientRegistration]]>
+    </line>
+    <line>
+      <![CDATA[Retrying Test hmsPatientRegistration with status FAIL for the1 times ]]>
+    </line>
+    <line>
+      <![CDATA[Test is skipped:hmsPatientRegistration]]>
+    </line>
+    <line>
+      <![CDATA[Test start running:hmsPatientRegistration]]>
+    </line>
+    <line>
+      <![CDATA[Retrying Test hmsPatientRegistration with status FAIL for the2 times ]]>
+    </line>
+    <line>
+      <![CDATA[Test is skipped:hmsPatientRegistration]]>
+    </line>
+    <line>
+      <![CDATA[Test start running:hmsPatientRegistration]]>
+    </line>
+    <line>
+      <![CDATA[Retrying Test hmsPatientRegistration with status FAIL for the3 times ]]>
+    </line>
+    <line>
+      <![CDATA[Test is skipped:hmsPatientRegistration]]>
+    </line>
+    <line>
+      <![CDATA[Test start running:hmsPatientRegistration]]>
+    </line>
+    <line>
+      <![CDATA[Test is failed:hmsPatientRegistration]]>
+    </line>
+    <line>
+      <![CDATA[<a href=' D:\Workspaces\Adv_Selenium_6_APR_6PM\maven_selenium\src\main\java\com\nareshit\maven_selenium\failedscreens\hmsPatientRegistration_26_04-20232023-07_18_50_.png '><img src=' D:\Workspaces\Adv_Selenium_6_APR_6PM\maven_selenium\src\main\java\com\nareshit\maven_selenium\failedscreens\hmsPatientRegistration_26_04-20232023-07_18_50_.png ' height='100' width='100'/></a> ]]>
+    </line>
+    <line>
+      <![CDATA[Test start running:verifyLogin]]>
+    </line>
+    <line>
+      <![CDATA[Test is success:verifyLogin]]>
+    </line>
+    <line>
+      <![CDATA[<a href=' D:\Workspaces\Adv_Selenium_6_APR_6PM\maven_selenium\src\main\java\com\nareshit\maven_selenium\passedscreens\verifyLogin_26_04-20232023-07_18_50_.png '><img src=' D:\Workspaces\Adv_Selenium_6_APR_6PM\maven_selenium\src\main\java\com\nareshit\maven_selenium\passedscreens\verifyLogin_26_04-20232023-07_18_50_.png ' height='100' width='100'/></a> ]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4812" started-at="2023-04-26T19:18:46 IST" finished-at="2023-04-26T19:18:51 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4812" started-at="2023-04-26T19:18:46 IST" finished-at="2023-04-26T19:18:51 IST">
+      <class name="com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849]" name="beforeTest" is-config="true" duration-ms="3213" started-at="2023-04-26T19:18:46 IST" finished-at="2023-04-26T19:18:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849]" name="startReport" is-config="true" duration-ms="3" started-at="2023-04-26T19:18:49 IST" finished-at="2023-04-26T19:18:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration.hmsPatientRegistration() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="SKIP" signature="hmsPatientRegistration()[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849]" name="hmsPatientRegistration" duration-ms="169" retried="true" started-at="2023-04-26T19:18:49 IST" description="This test case is to verify patient registration in HMS." finished-at="2023-04-26T19:18:49 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='submi']"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfe4664897a2ff64747076a69ce3b5d2, findElement {using=name, value=submi}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mahesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53224}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53224/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfe4664897a2ff64747076a69ce3b5d2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='submi']"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfe4664897a2ff64747076a69ce3b5d2, findElement {using=name, value=submi}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mahesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53224}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53224/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfe4664897a2ff64747076a69ce3b5d2
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at com.nareshit.maven_selenium.pageUI.Registration.login(Registration.java:48)
+at com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration.hmsPatientRegistration(TC001_CustomerRegistration.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test start running:hmsPatientRegistration]]>
+            </line>
+            <line>
+              <![CDATA[Retrying Test hmsPatientRegistration with status FAIL for the1 times ]]>
+            </line>
+            <line>
+              <![CDATA[Test is skipped:hmsPatientRegistration]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- hmsPatientRegistration -->
+        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849]" name="endReport" is-config="true" duration-ms="1" started-at="2023-04-26T19:18:49 IST" finished-at="2023-04-26T19:18:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=hmsPatientRegistration status=SKIP method=TC001_CustomerRegistration.hmsPatientRegistration()[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849] output=Test start running:hmsPatientRegistration]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="SKIP" signature="hmsPatientRegistration()[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849]" name="hmsPatientRegistration" duration-ms="108" retried="true" started-at="2023-04-26T19:18:49 IST" description="This test case is to verify patient registration in HMS." finished-at="2023-04-26T19:18:49 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='submi']"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfe4664897a2ff64747076a69ce3b5d2, findElement {using=name, value=submi}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mahesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53224}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53224/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfe4664897a2ff64747076a69ce3b5d2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='submi']"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfe4664897a2ff64747076a69ce3b5d2, findElement {using=name, value=submi}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mahesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53224}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53224/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfe4664897a2ff64747076a69ce3b5d2
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at com.nareshit.maven_selenium.pageUI.Registration.login(Registration.java:48)
+at com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration.hmsPatientRegistration(TC001_CustomerRegistration.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test start running:hmsPatientRegistration]]>
+            </line>
+            <line>
+              <![CDATA[Retrying Test hmsPatientRegistration with status FAIL for the2 times ]]>
+            </line>
+            <line>
+              <![CDATA[Test is skipped:hmsPatientRegistration]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- hmsPatientRegistration -->
+        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849]" name="startReport" is-config="true" duration-ms="0" started-at="2023-04-26T19:18:49 IST" finished-at="2023-04-26T19:18:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration.hmsPatientRegistration() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849]" name="endReport" is-config="true" duration-ms="0" started-at="2023-04-26T19:18:49 IST" finished-at="2023-04-26T19:18:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=hmsPatientRegistration status=SKIP method=TC001_CustomerRegistration.hmsPatientRegistration()[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849] output=Test start running:hmsPatientRegistration]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849]" name="startReport" is-config="true" duration-ms="0" started-at="2023-04-26T19:18:49 IST" finished-at="2023-04-26T19:18:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration.hmsPatientRegistration() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="SKIP" signature="hmsPatientRegistration()[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849]" name="hmsPatientRegistration" duration-ms="97" retried="true" started-at="2023-04-26T19:18:49 IST" description="This test case is to verify patient registration in HMS." finished-at="2023-04-26T19:18:49 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='submi']"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfe4664897a2ff64747076a69ce3b5d2, findElement {using=name, value=submi}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mahesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53224}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53224/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfe4664897a2ff64747076a69ce3b5d2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='submi']"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfe4664897a2ff64747076a69ce3b5d2, findElement {using=name, value=submi}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mahesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53224}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53224/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfe4664897a2ff64747076a69ce3b5d2
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at com.nareshit.maven_selenium.pageUI.Registration.login(Registration.java:48)
+at com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration.hmsPatientRegistration(TC001_CustomerRegistration.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test start running:hmsPatientRegistration]]>
+            </line>
+            <line>
+              <![CDATA[Retrying Test hmsPatientRegistration with status FAIL for the3 times ]]>
+            </line>
+            <line>
+              <![CDATA[Test is skipped:hmsPatientRegistration]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- hmsPatientRegistration -->
+        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849]" name="endReport" is-config="true" duration-ms="1" started-at="2023-04-26T19:18:49 IST" finished-at="2023-04-26T19:18:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=hmsPatientRegistration status=SKIP method=TC001_CustomerRegistration.hmsPatientRegistration()[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849] output=Test start running:hmsPatientRegistration]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="FAIL" signature="hmsPatientRegistration()[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849]" name="hmsPatientRegistration" duration-ms="97" started-at="2023-04-26T19:18:49 IST" description="This test case is to verify patient registration in HMS." finished-at="2023-04-26T19:18:50 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='submi']"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfe4664897a2ff64747076a69ce3b5d2, findElement {using=name, value=submi}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mahesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53224}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53224/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfe4664897a2ff64747076a69ce3b5d2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='submi']"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfe4664897a2ff64747076a69ce3b5d2, findElement {using=name, value=submi}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mahesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53224}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53224/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfe4664897a2ff64747076a69ce3b5d2
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at com.nareshit.maven_selenium.pageUI.Registration.login(Registration.java:48)
+at com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration.hmsPatientRegistration(TC001_CustomerRegistration.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test start running:hmsPatientRegistration]]>
+            </line>
+            <line>
+              <![CDATA[Test is failed:hmsPatientRegistration]]>
+            </line>
+            <line>
+              <![CDATA[<a href=' D:\Workspaces\Adv_Selenium_6_APR_6PM\maven_selenium\src\main\java\com\nareshit\maven_selenium\failedscreens\hmsPatientRegistration_26_04-20232023-07_18_50_.png '><img src=' D:\Workspaces\Adv_Selenium_6_APR_6PM\maven_selenium\src\main\java\com\nareshit\maven_selenium\failedscreens\hmsPatientRegistration_26_04-20232023-07_18_50_.png ' height='100' width='100'/></a> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- hmsPatientRegistration -->
+        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849]" name="startReport" is-config="true" duration-ms="0" started-at="2023-04-26T19:18:49 IST" finished-at="2023-04-26T19:18:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration.hmsPatientRegistration() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849]" name="endReport" is-config="true" duration-ms="1" started-at="2023-04-26T19:18:50 IST" finished-at="2023-04-26T19:18:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=hmsPatientRegistration status=FAILURE method=TC001_CustomerRegistration.hmsPatientRegistration()[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849] output=Test start running:hmsPatientRegistration]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849]" name="verifyLogin" duration-ms="1" started-at="2023-04-26T19:18:50 IST" finished-at="2023-04-26T19:18:50 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Test start running:verifyLogin]]>
+            </line>
+            <line>
+              <![CDATA[Test is success:verifyLogin]]>
+            </line>
+            <line>
+              <![CDATA[<a href=' D:\Workspaces\Adv_Selenium_6_APR_6PM\maven_selenium\src\main\java\com\nareshit\maven_selenium\passedscreens\verifyLogin_26_04-20232023-07_18_50_.png '><img src=' D:\Workspaces\Adv_Selenium_6_APR_6PM\maven_selenium\src\main\java\com\nareshit\maven_selenium\passedscreens\verifyLogin_26_04-20232023-07_18_50_.png ' height='100' width='100'/></a> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849]" name="startReport" is-config="true" duration-ms="0" started-at="2023-04-26T19:18:50 IST" finished-at="2023-04-26T19:18:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration.verifyLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849]" name="endReport" is-config="true" duration-ms="1" started-at="2023-04-26T19:18:50 IST" finished-at="2023-04-26T19:18:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_CustomerRegistration.verifyLogin()[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849] output=Test start running:verifyLogin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration@1e67a849]" name="endTest" is-config="true" duration-ms="808" started-at="2023-04-26T19:18:50 IST" finished-at="2023-04-26T19:18:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.nareshit.maven_selenium.homepage.TC001_CustomerRegistration -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

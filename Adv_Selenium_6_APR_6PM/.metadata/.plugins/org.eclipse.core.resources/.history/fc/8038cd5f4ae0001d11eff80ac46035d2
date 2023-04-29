@@ -1,0 +1,22 @@
+package com.nareshit.maven_selenium.homepage;
+
+import org.testng.annotations.Test;
+import com.nareshit.maven_selenium.basepage.BasePage;
+import com.nareshit.maven_selenium.pageUI.Registration;
+
+import org.testng.annotations.BeforeTest;
+
+public class TC001_CustomerRegistration extends BasePage {
+	@Test(description = "This test case is to verify patient registration in HMS.")
+	public void hmsPatientRegistration()throws Exception {
+		Registration reg = new Registration(driver);
+		reg.login();
+		reg.registration();
+		reg.pr();
+	}
+
+	@BeforeTest
+	public void beforeTest() throws Exception {
+		browserLaunch(getData("browser"), getData("url"));
+	}
+}
